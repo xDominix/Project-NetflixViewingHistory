@@ -1,15 +1,6 @@
 # NETFLIX WATCH HISTORY SUMMARY
 <no to ogolnie apka do wyswietlenia sttystyk o ogladanych rzeczach na netflix>
 
-
-KOMPILACJA:
-  >LINUX
-    make run
-
-  >WINDOWS
-    g++ csvread.cpp factory.cpp builder.cpp mylib.cpp main.cpp -o main 
-    main.exe "NetflixViewingHistoryEng.csv"
-
 IDEA:
 --------------------------------------------------------------------
 ------ NETFLIX WATCH HISTORY SUMMARY -------

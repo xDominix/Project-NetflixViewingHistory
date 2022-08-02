@@ -1,142 +1,154 @@
-# NETFLIX WATCH HISTORY SUMMARY
-<no to ogolnie apka do wyswietlenia sttystyk o ogladanych rzeczach na netflix>
+### NETFLIX WATCH HISTORY SUMMARY ###
+<program do wyświetlania statystyk o filmach i serialach z Netflixa>
 
-IDEA:
---------------------------------------------------------------------
------- NETFLIX WATCH HISTORY SUMMARY -------
------------------ 03.04.2018 - 03.03.2020 ---------------
------------------------------------------------------------------- -
-REPORT PERIOD                                         30 DAYS
-WATCHING-DAYS                             20 DAYS (75%)    
--------------------------------------------------------------- -----
+PRZYGOTOWANIE I KOMPILACJA:
+www.netflix.com -> Konto -> Profile -> Historia oglądania -> Pobierz wszystko
+make compile
+./main "NetflixViewingHistory.csv"
 
-------------------- TOTAL WATCHED  ------------------==--
-ALL                                                                         202
-> MOVIES                                                               130
-> ONE-SEASON SERIES                                        202
-> MULTI-SEASON SERIES                                     100
------------------------------------------------------------------- --
-EPISODES WATCHED                                         1000
-IT IS                         0.930                          PER DAY!
--------------------------------------------------------------------- -
-WATCH TIME                                     1800H - 2010H   
-AVG                                                                ~ 1900H
-IT IS                        0H 32MIN                    PER DAY!
-------------------------------------------------------------------- --
+PRZYKLADOWE WYWOLANIE:
+-----------------------------------------------------------------------
+-------------------- NETFLIX WATCH HISTORY SUMMARY --------------------
+-------------------------- 6/14/19 - 6/30/22 --------------------------
+-----------------------------------------------------------------------
+REPORT PERIOD                                                 1113 DAYS
+WATCHING - DAYS                                          555 DAYS (49%)
+-----------------------------------------------------------------------
 
-------          ------ OVER THE MONTHS------------------
-06.22                                                      3 episodes
-07.22                                                      3 episodes
-06.22                                                      3 episodes
-07.22                                                      3 episodes
-06.22                                                      3 episodes
-07.22                                                      3 episodes
-----------------------------------------------------------------------
+---------------------------- TOTAL WATCHED ----------------------------
+ALL                                                                 283
+> MOVIES                                                            113
+> ONE-SEASON SERIES                                                  72
+> MULTI-SEASON SERIES                                                98
+-----------------------------------------------------------------------
+EPISODES WATCHED                                                   1000
+IT IS                            0.898                         PER DAY!
+IT IS                            26.95                       PER MONTH!
+-----------------------------------------------------------------------
+WATCH TIME                                                  301H - 591H
+AVG                                                              ~ 446H
+IT IS                          0H 24MIN                        PER DAY!
+-----------------------------------------------------------------------
 
---------------------- WATCH HISTORY ------------------------ //probka 10 i kogo jest najwiecej wygrywa , max 4
-SPIDERHEAD                                                    MOVIE
-MAN VS BEE                                                     SERIES
-CARMEN                                                           SERIES
-DIVO                                                                 MOVIE
-DIVO                                                                 MOVIE
+--------------------------- OVER THE YEARS ----------------------------
+2019                                                       154 EPISODES
+2020                                                       315 EPISODES
+2021                                                       334 EPISODES
+2022                                                       197 EPISODES
+-----------------------------------------------------------------------
+
+---------------------------- WATCH HISTORY ----------------------------
+Carmen Sandiego                                     MULTI-SEASON SERIES
+Totally Spies!                                        ONE-SEASON SERIES
+Blue Period                                           ONE-SEASON SERIES
+Man Vs Bee                                            ONE-SEASON SERIES
+Aggretsuko                                          MULTI-SEASON SERIES
 ...
-DIVO                                                                 MOVIE
-KILLING RAYCE                                                SERIES
-BIGBRAIN                                                         SERIES
-KILLING RAYCE                                                SERIES
-                      ^ REMEMBER THEM ? ^
-------------------------------------------------------------------- --
+WHAT / IF                                           MULTI-SEASON SERIES
+Always Be My Maybe                                                MOVIE
+Bad Blood                                             ONE-SEASON SERIES
+Black Mirror                                        MULTI-SEASON SERIES
+Murder Mystery                                                    MOVIE
+                          ^ remember them ? ^
+-----------------------------------------------------------------------
 
------------------------- MOST WATCHED --------------------- // top 7 jesli sie da , ile odcinkow danego serialu ogladales
-MONEYHEIST                         50 EPISODES
-MAN VS BEE                           10  EPISODES
-MAN VS BEE                           19 EPISODES
-MAN VS BEE                           22 EPISODES
-MAN VS BEE                          10 EPISODES
-MAN VS BEE                          10 EPISODES
-MAN VS BEE                          10 EPISODES
------------------------------------------------------------ -----------
+---------------------------- MOST WATCHED -----------------------------
+Money Heist                                                 50 EPISODES
+Sword Art Online                                            49 EPISODES
+Suits                                                       47 EPISODES
+Rick and Morty                                              41 EPISODES
+Emily in Paris                                              20 EPISODES
+Avatar                                                      20 EPISODES
+A Certain Scientific Railgun                                18 EPISODES
+-----------------------------------------------------------------------
 
----------------------- DISLIKED SERIES (0.512%) ------------------- // seriale wylaczone po 1 odcinku , paginacja
-TITLES YOU BARLY STARTED:
-BUBBLES, CARMEN, REALTALK, SMK, MISMIS, 
-ANSIDAIS, ASDMI, ASMDOIASDOIM, ...
-                                                            TOTAL: 200
---------------------------------------------------------------------- - 
+----------------------- DISLIKED SERIES (73.5%) -----------------------
+TITLES YOU BARELY STARTED:
+13 Reasons Why, A.I.C.O., Abstract, Aggretsuko,
+American Pie Presents, An Astrological Guide for Broken Hearts,
+Archer, BLACKPINK, Bad Blood, Better Than Us, Between,  ...
+                                                             TOTAL: 125
+-----------------------------------------------------------------------
 
------------------- THE FASTEST SESSIONS --------------------------- // 30epi/15day
-MONEY HEIST - 25.05.22 
-- You watched: 15 episodes in 15 days!
+------------------------ THE FASTEST SESSIONS -------------------------
+TOP 1 - Stay Close                                               1/4/22
+> You watched: 8 episodes in 5 days!
+> It is 1.600 per day.
 
-MONEY HEIST - 25.05.22 
-- You watched: 20 episodes in 15 days!
+TOP 2 - Sword Art Online                                         3/5/21
+> You watched: 49 episodes in 26 days!
+> It is 1.884 per day.
 
-MONEY HEIST - 25.05.22 
-- You watched: 20 episodes in 40 days!
------------------- THE LONGEST SESSIONS ------------------------- 
-MONEY HEIST - 25.05.22 
-- You watched: 20 episodes in 15_days!
+TOP 3 - Avatar                                                   4/5/22
+> You watched: 20 episodes in 20 days!
+> It is 1.000 per day.
 
-MONEY HEIST - 25.05.22 
-- You watched: 20 episodes in 40_days!
---------------------------------------------------------------------------------
+------------------------ THE LONGEST SESSIONS -------------------------
+TOP 1 - Rick and Morty                                         12/17/19
+> You watched: 41 episodes in 903 days!
 
------------------------- IT'S A STRIKE! ----------------------------
-WATCH STREAK                             23 DAYS IN A ROW!
+TOP 2 - Money Heist                                              7/5/19
+> You watched: 50 episodes in 902 days!
 
-STREAK DATES: 10.02.22 - 20.02.21
-STREAK TITLES: Rick and Morty, Rich girls, 
-Bad Blood
-TOTAL EPISODES: 30
------------------------------------------------------------------- ------
+TOP 3 - Elite                                                   3/26/20
+> You watched: 40 episodes in 808 days!
 
--------- BINGE-WATCHING OR INDECISIVE DAY ? ----------- //paiginacja 
-On 20.02.23 you watched: 
-Dom z papieru: Część 1: Odcinek 7
-Dom z papieru: Część 1: Odcinek 6
-Dom z papieru: Część 1: Odcinek 5
-Dom z papieru: Część 1: Odcinek 4
+-----------------------------------------------------------------------
 
-On 20.02.20 you watched: 
-Dom z papieru: Część 1: Odcinek 7
-Dom z papieru: Część 1: Odcinek 6
-Dom z papieru: Część 1: Odcinek 5
-Dom z papieru: Część 1: Odcinek 4
------------------------------------------------------------------ ------
+--------------------------- IT'S A STRIKE! ----------------------------
+WATCH STREAK                                          22 DAYS IN A ROW!
 
-------- THE LONGEST GAP -------
-23.06.22 - 24.05.22
-Ahh 7 days of relax...
+PERIOD: 3/17/20 - 4/7/20
+WATCHED TITLES: Sense8, Elite, All The Bright Places, Money Heist,
+Toy Boy, Better Than Us, Nobody Sleeps in the Woods Tonight,
+365 Days, Explained
+TOTAL EPISODES: 54
+-----------------------------------------------------------------------
+
+----------------- BINGE-WATCHING OR INDECISIVE DAY ? ------------------
+On 3/24/21 you watched:
+> Sword Art Online: Illusionary Avenger
+> Sword Art Online: The Temperature of the Heart
+> Sword Art Online: The Sword Dance of Black and White
+
+On 4/2/20 you watched:
+> Elite: Season 1: Welcome
+> Elite: Season 1: Assilah
+> Elite: Season 2: 20 hours missing
+-----------------------------------------------------------------------
+
+--------------------------- THE LONGEST GAP ---------------------------
+You didn't watch anything on dates:
+> 1/28/20 - 2/12/20
+Ahh 16 days of relax...
 What did you do then ?
 
 Before the gap you watched:
-- Arcane: Gdy zaczną kruszeć te mury
+> The Circle: Season 1: Hello, Circle
 After the gap you watched:
-- Arcane: Gdy zaczną kruszeć te mury
------------------------------------------- -
+> The Pursuit of Happyness
+-----------------------------------------------------------------------
 
-TYPE TITLE FOR MORE INFO OR QUIT (Q):  ---// did you mean: man vs bee ? 
->> 
+Type title for more info or quit (Q) :
+>> Money Heist
 
---------------- ABOUT: ARCANE ------------------------
-TYPE                                                ONESERIES
-EPISODES WATCHED                                 100
-FIRST EPISODE WATCHED                22.22.21
-LAST EPISODE WATCHED                 22.20.22
+------------------------- ABOUT: MONEY HEIST --------------------------
+TYPE                                                MULTI-SEASON SERIES
+EPISODES WATCHED                                                     50
+FIRST EPISODE WATCHED                                            7/5/19
+LAST EPISODE WATCHED                                           12/22/21
 
-                    LIST OF EPISODES
-NAME                                             DAYS DELTA
-sadasodmsoad                                     
-smadsadoam o                                     +1
-smadsadoam o                                     +4
-smadsadoam                                        +10
+                           LIST OF EPISODES
+NAME                                                         DAYS DELTA
+Part 1: Episode 2
+Part 1: Episode 3                                                    +0
+Part 1: Episode 4                                                    +0
+Part 1: Episode 5                                                    +1
+...
+Part 5: The Elegance Theory                                        +899
+Part 5: Pillow Talk                                                +900
+Part 5: A Family Tradition                                         +901
 
-                       BEST SESSION          22.22.20
-You watched 10 episodes in 10 days!                   
---------------------------------------------------------------
-
----------------- ABOUT: FOCUS -----------------------
-TYPE                                                         MOVIE
-WATCHED DATE                                      22.22.21 
---------------------------------------------------------------
-
+                             BEST SESSION                        7/5/19
+You watched 50 episodes in 902 days!
+-----------------------------------------------------------------------

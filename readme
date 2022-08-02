@@ -4,7 +4,22 @@
 PRZYGOTOWANIE I KOMPILACJA:
 www.netflix.com -> Konto -> Profile -> Historia oglądania -> Pobierz wszystko
 make compile
-./main "NetflixViewingHistory.csv"
+./main "NAZWA_POBRANEGO_PLIKU"
+
+PERSONALIZACJA WYNIKÓW:
+w pliku main.cpp, możemy zmieniać poszczególne stałe:
+
+SCREENSIZE 70 - szerokosc tekstu drukowanego na konsole
+MOVIELEN 100 - średnia dlugosc trwania filmu
+SERIESLEN 40 - średnia dlugosc trwania serialu
+
+WATCHBEGIN 5 - ilość ostatnio oglądanych
+WATCHEND 5 - ilość oglądanych z końca
+MOST 15 - ilość najwięcej oglądanych
+DISLIKE 3 - ilość niepolubianych (wyłączone po max 3 odcinkach)
+FASTEST 5 - ilość ogladanych najszybciej
+LONGEST 5 - ilość ogladanych najdłużej
+BINGE 2 - ilość binge-watchowanych
 
 PRZYKLADOWE WYWOLANIE:
 -----------------------------------------------------------------------

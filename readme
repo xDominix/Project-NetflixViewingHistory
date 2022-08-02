@@ -8,11 +8,9 @@ make compile
 
 PERSONALIZACJA WYNIKÓW:
 w pliku main.cpp, możemy zmieniać poszczególne stałe:
-
 SCREENSIZE 70 - szerokosc tekstu drukowanego na konsole
 MOVIELEN 100 - średnia dlugosc trwania filmu
 SERIESLEN 40 - średnia dlugosc trwania serialu
-
 WATCHBEGIN 5 - ilość ostatnio oglądanych
 WATCHEND 5 - ilość oglądanych z końca
 MOST 15 - ilość najwięcej oglądanych

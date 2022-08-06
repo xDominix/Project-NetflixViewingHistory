@@ -1,10 +1,10 @@
 compile:
-	g++ csvread.cpp factory.cpp builder.cpp mylib.cpp main.cpp -o main
+	g++ csvread.cpp factory.cpp builder.cpp mylib.cpp main.cpp -o main -std=c++11
 
-run:
+test:
 	clear
 	make compile
-	./main "NetflixViewingHistoryEng.csv"
+	./main "NetflixViewingHistory.csv"
 
 clean:
 	rm -f main
